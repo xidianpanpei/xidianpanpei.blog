@@ -1,24 +1,24 @@
 ---
-layout: master
-title: Home
+layout: default
+description: A description about my blog homepage
 ---
 
-<div class='home_box' id='home_left'>
-  <h2>
-    Latest Post
-    <span class="more">(<a href='/archive.html'>Archive</a>)</span>
-    <span class="more">(<a href='/howto.html'>Howto</a>)</span>
-    <span class="more">(<a href='/atom.xml'>Feed</a>)</span>
-  </h2>
-
-  <div class='post'>
-    <h1><a href='{{site.posts.first.url}}'>{{site.posts.first.title}}</a></h1>
-    <div class='body'>{{ site.posts.first.content }}</div>
-  </div>
+<div id="posts">
+  <h2>Blog Posts</h2>
+  <ul>
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> - <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
 </div>
-<div class='home_box' id='home_right'>
-  <h2>Featured Projects</h2>
-  {% include featured.html %}
-  <div id='github-projects'>
-  </div>
+
+<div id="pages">
+  <h2>Pages</h2>
+  <ul>
+    {% for page in site.html_pages %}
+      {% if page.title %}
+        <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+  </ul>
 </div>
