@@ -1,0 +1,25 @@
+--- 
+title: GitHub Rebase 32
+layout: post
+---
+
+Want to see your project on Rebase? Check out the "howto":http://rebase.github.com/howto.html! I also seem to be running short of interesting Git images as well. If you see any, and given they don't contain Larry the Cable Guy, "shoot me a message":http://github.com/qrush.
+
+p=. "!http://cloud.github.com/downloads/rebase/rebase.github.com/ByronMillerGitWitMe1990.jpg!":http://www.youtube.com/watch?v=4NK3L4qMgvo
+
+h3. Featured Project
+
+*"mootools-core":http://github.com/mootools/mootools-core* is an object-oriented JavaScript framework that has tons of helpful utilities for working with the language's various data types, AJAX, basic animations/effects , and more. It's got a huge "docs":http://mootools.net/docs/core site, a custom builder to include just the parts of the framework you need, and best of all, an upcoming plugin repository called "Forge":http://mootools.net/forge/ that's backed by GitHub. "Adding a plugin is simple":http://mootools.net/forge/how-to-add and encourages plenty of documentation: whip up a README, create a few standard folders and script headers, tag your release, and you're all set. To get started, you may want to peruse the "MooTorial":http://www.mootorial.com/wiki/mootorial or browse this "list of solid plugins":http://www.w3avenue.com/2009/07/28/list-of-really-useful-plugins-and-resources-for-mootools/.
+
+h3. Notably New Projects
+
+*"fix-me":http://github.com/seaofclouds/fix-me* is a contest for $100 to fix a CSS layout that tends to produce scrollbars when they're really not needed. "Check out the site":fixme.heroku.com to see the problem in Firefox, Safari, or IE. If you're brave and wise in the ways of the "box model":http://bethesignal.org/wp-content/uploads/2009/06/css-is-awesome-700x375.jpg give it a shot! 
+
+*"mapdiff":http://github.com/refnum/mapdiff* is a visualizer for changes to "OpenStreetMap":http://www.openstreetmap.org/, a world-wide wiki map. The result is a "neat video":http://www.refnum.com/projects/osm/mapdiff/ that shows the change over time for roads added, changed, and removed. If you're up for some "D":http://www.digitalmars.com/d/ hacking, give this project a look. There's also some "other resources":http://www.refnum.com/projects/osm/index.html about OpenStreetMap on "refnum's":http://github.com/refnum site, such as a comparsions of the open system against Google Maps.
+
+*"mockfs":http://github.com/mockfs/mockfs* is a simple mock filesystem for use in unit tests in Python, much like "FakeFS":http://github.com/defunkt/fakefs in Ruby. It also works by replacing already known filesystem functions in the @os@ and @glob@ modules, and the project is even using "GitHub Pages":http://pages.github.com to publish some "Sphinx":http://sphinx.pocoo.org/ "docs of the project":http://mockfs.github.com/. Now you can "TATFT":http://rubyhoedown2008.confreaks.com/05-bryan-liles-lightning-talk-tatft-test-all-the-f-in-time.html with Python even faster since your FS calls don't actually hit your FS.
+
+*"jesus":http://github.com/dmathieu/jesus* is a web interface to "God":http://github.com/mojombo/god. Religious references aside, this is a seriously useful library that uses "Sinatra":http://github.com/sinatra/sinatra to serve up a web interface so you can "see just what's being monitored":http://cloud.github.com/downloads/dmathieu/jesus/jesus-0.0.1.png. The "README covers":http://42.dmathieu.com/jesus/ getting this set up and installed on your server. If you haven't seen what God can do for your important processes yet, be sure to "check that out too":http://god.rubyforge.org/.
+
+*"go-repl":http://github.com/vito/go-repl* is an interactive console for the highly-searchable "Go language":http://golang.org. But wait, isn't Go a compiled language? This REPL compiles the source as you go on, making it an ideal sandbox for playing around with the language. It's also a "decent example":http://github.com/vito/go-repl/blob/master/main.go of a usable library if you haven't read any Go code before.
+
