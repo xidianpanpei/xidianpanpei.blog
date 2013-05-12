@@ -5,19 +5,19 @@ layout: nil
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>{{ site.name }}</title>
- <link href="http://lhzhang.com/atom.xml" rel="self"/>
- <link href="http://lhzhang.com/"/>
+ <link href="http://xidianpanpei.github.io/atom.xml" rel="self"/>
+ <link href="http://xidianpanpei.github.io/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://lhzhang.com/</id>
+ <id>http://xidianpanpei.github.io/</id>
  <author>
-   <name>Linghua Zhang</name>
-   <email>linghua.zhang@me.com</email>
+   <name>Pei Pan</name>
+   <email>pannpei@gmail.com</email>
  </author>
 
  {% for post in site.posts limit:10 %}
  <entry>
    <title>{{ post.title | xml_escape }}</title>
-   <link href="http://lhzhang.com{{ post.url }}"/>
+   <link href="http://xidianpanpei.github.io{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
    {% if post.guid %}<id>{{ post.guid }}</id>{% else %}<id>http://lhzhang.com{{ post.id }}</id>{% endif %}
    <content type="html">{{ post.content | xml_escape }}</content>
