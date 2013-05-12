@@ -8,6 +8,6 @@ tags:
   - 测试
 ---
 
-![](/media/files/2013/04/02/fighting.jpg "每天努力")
+<span class="img-900">![](/media/files/2013/04/02/fighting.jpg "每天努力")</span>
 
 这是一篇测试文章，目的在于测试新建的基于GitHub Pages的博客系统是否可以正常使用，同时测试采用的博客风格是否可用。
