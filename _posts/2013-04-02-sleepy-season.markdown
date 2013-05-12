@@ -1,14 +1,12 @@
 ---
-title: 桜
+title: GitHub Pages博客测试文章
 layout: post
 guid: urn:uuid:22a07a54-fe0a-4caa-bc60-75bcb06769aa
 tags:
-  - leica
-  - m6
-  - photography
-  - zm35
+  - GitHub Pages
+  - 博客
+  - 测试
 ---
 
-<span class="image-1200">[![](/media/files/2013/04/02/sakura.jpg)](http://500px.com/photo/29307621)</span>
-
-照着 11 区这不是刮风就是下雨进了四月也依旧热不起来的节奏，五月病怕是要提前到来了
+![](\media\files\2013\04\02\fighting.jpg "每天努力")
+这是一篇测试文章，目的在于测试新建的基于GitHub Pages的博客系统是否可以正常使用，同时测试采用的博客风格是否可用。
