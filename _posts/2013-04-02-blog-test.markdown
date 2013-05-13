@@ -1,7 +1,6 @@
 ---
 title: GitHub Pages博客测试文章
 layout: post
-guid: urn:uuid:22a07a54-fe0a-4caa-bc60-75bcb06769aa
 tags:
   - GitHub Pages
   - 博客
