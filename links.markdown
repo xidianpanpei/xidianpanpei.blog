@@ -1,7 +1,7 @@
 ---
 title: links
 layout: page
----
+---  
 -------------------------------------------------------------
 **个人博客**  
 **[博客园 crAzyli0n's blog](http://www.cnblogs.com/panpei/)**
