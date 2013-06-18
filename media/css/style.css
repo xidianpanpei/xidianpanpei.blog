@@ -21,7 +21,7 @@ a {
 
 body {
   font-size: 14px;
-  font-family: "Overlock", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  font-family: "Microsoft YaHei", "Overlock", "Hiragino Sans GB", sans-serif;
   color: #555555;
   background-image: url("/media/css/bg.png"); }
 
@@ -51,7 +51,7 @@ ol, ul {
       color: #333333; }
   #header h1 {
     display: block;
-    font-family: "Coda", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; }
+    font-family: "Microsoft YaHei", "Coda", "Hiragino Sans GB", sans-serif; }
 
 nav {
   width: 80px;
@@ -65,7 +65,7 @@ nav {
     display: block;
     margin: 1em 0; }
   nav a {
-    font-family: "Coda", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    font-family: "Microsoft YaHei", "Coda", "Hiragino Sans GB", sans-serif;
     font-size: 1.25em;
     text-transform: uppercase;
     color: #afafaf; }
@@ -166,7 +166,7 @@ nav {
     text-align: center;
     margin: 2em 0; }
     #content #page_nav a {
-      font-family: "Coda", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      font-family: "Microsoft YaHei", "Coda", "Hiragino Sans GB", sans-serif;
       font-size: .8em;
       padding: 0.25em 1em;
       color: #a0a0a0;
