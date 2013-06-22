@@ -1,7 +1,7 @@
 ---
 title: 关于yahoo.com.cn邮箱导入Gmail邮箱验证异常的机制解析及解决办法
 layout: post
-guid: urn:uuid:21a47a54-fe0a-4caa-bc60-20130404869aa
+guid: urn:uuid:21a47a54-fe0a-4caa-bc60-20130419869aa
 tags:
   - 碎碎念
   - Gmail
@@ -26,15 +26,15 @@ Yahoo邮箱一直用了一个很奇怪的域名，它的POP服务器是：`pop.m
 
 既然已经知道错误的原因所在，于是，如果我们的邮箱是`username@yahoo.com.cn`，我们就在导入过程中填入`username@mail.yahoo.com.cn`，如图示：
 
-<span class="img-800">![](/media/files/2013/04/08/yahoo-move-step1.png "步骤一")</span>
+<span class="img-800">![](/media/files/2013/04/19/yahoo-move-step1.png "步骤一")</span>
 
 试了果然有效果了，没有再提示验证错误了，直接进入下图：
 
-<span class="img-600">![](/media/files/2013/04/08/yahoo-move-step2.png "步骤二")</span>
+<span class="img-600">![](/media/files/2013/04/19/yahoo-move-step2.png "步骤二")</span>
 
 输入咱的邮箱密码就有了：
 
-<span class="img-600">![](/media/files/2013/04/08/yahoo-move-step3.png "步骤三")</span>
+<span class="img-600">![](/media/files/2013/04/19/yahoo-move-step3.png "步骤三")</span>
 
 离成功就一步之遥了，上图中还是有个错误，就是那个POP server：`mail.mail.yahoo.com.cn`，我们将其改成真正的POP server：`pop.mail.yahoo.com.cn`，然后就一路continue吧。
 
