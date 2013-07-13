@@ -134,7 +134,7 @@ nav {
     display: block; }
   #content p {
     padding: 0.7em 0; }
-  #content pre code {
+/*  #content pre code {
     margin: 1em -25px 1em -25px;
     padding-left: 25px;
     padding-right: 25px;
@@ -143,7 +143,7 @@ nav {
     font-family: Menlo, monospace;
     line-height: 1.6;
     display: block;
-    overflow: auto; }
+    overflow: auto; } */
   #content blockquote {
     display: block;
     text-align: justify;
