@@ -19,37 +19,37 @@ tags:
 
 「母校闲逛」
 
-<span class="img-800">![](/media/files/2013/07/17/biking-school-1.jpg)</span>
+<span class="img-800">![](/media/files/2013/07/17/biking-school-1.png)</span>
 
-<span class="img-800">![](/media/files/2013/07/17/biking-school-2.jpg)</span>
+<span class="img-800">![](/media/files/2013/07/17/biking-school-2.png)</span>
 
-<span class="img-800">![](/media/files/2013/07/17/biking-school-3.jpg)</span>
+<span class="img-800">![](/media/files/2013/07/17/biking-school-3.png)</span>
 
-<span class="img-800">![](/media/files/2013/07/17/biking-school-4.jpg)</span>
+<span class="img-800">![](/media/files/2013/07/17/biking-school-4.png)</span>
 
-<span class="img-800">![](/media/files/2013/07/17/biking-school-5.jpg)</span>
+<span class="img-800">![](/media/files/2013/07/17/biking-school-5.png)</span>
 
-<span class="img-800">![](/media/files/2013/07/17/biking-school-6.jpg)</span>
+<span class="img-800">![](/media/files/2013/07/17/biking-school-6.png)</span>
 
-<span class="img-800">![](/media/files/2013/07/17/biking-school-7.jpg)</span>
+<span class="img-800">![](/media/files/2013/07/17/biking-school-7.png)</span>
 
-<span class="img-800">![](/media/files/2013/07/17/biking-school-8.jpg)</span>
+<span class="img-800">![](/media/files/2013/07/17/biking-school-8.png)</span>
 
-<span class="img-800">![](/media/files/2013/07/17/biking-school-9.jpg)</span>
+<span class="img-800">![](/media/files/2013/07/17/biking-school-9.png)</span>
 
-<span class="img-800">![](/media/files/2013/07/17/biking-school-10.jpg)</span>
+<span class="img-800">![](/media/files/2013/07/17/biking-school-10.png)</span>
 
-<span class="img-800">![](/media/files/2013/07/17/biking-school-11.jpg)</span>
+<span class="img-800">![](/media/files/2013/07/17/biking-school-11.png)</span>
 
 「江边一瞥」
 
 <span class="img-800">![](/media/files/2013/07/17/biking-changjiang-1.png)</span>
 
-<span class="img-800">![](/media/files/2013/07/17/biking-changjiang-2.jpg)</span>
+<span class="img-800">![](/media/files/2013/07/17/biking-changjiang-2.png)</span>
 
-<span class="img-800">![](/media/files/2013/07/17/biking-changjiang-3.jpg)</span>
+<span class="img-800">![](/media/files/2013/07/17/biking-changjiang-3.png)</span>
 
-<span class="img-800">![](/media/files/2013/07/17/biking-changjiang-4.jpg)</span>
+<span class="img-800">![](/media/files/2013/07/17/biking-changjiang-4.png)</span>
 
 
 [1]:http://weibo.com/inxian
