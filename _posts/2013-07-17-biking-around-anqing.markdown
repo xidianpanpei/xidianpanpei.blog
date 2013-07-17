@@ -23,23 +23,7 @@ tags:
 
 <span class="img-800">![](/media/files/2013/07/17/biking-school-2.jpg)</span>
 
-<span class="img-800">![](/media/files/2013/07/17/biking-school-3.jpg)</span>
 
-<span class="img-800">![](/media/files/2013/07/17/biking-school-4.jpg)</span>
-
-<span class="img-800">![](/media/files/2013/07/17/biking-school-5.jpg)</span>
-
-<span class="img-800">![](/media/files/2013/07/17/biking-school-6.jpg)</span>
-
-<span class="img-800">![](/media/files/2013/07/17/biking-school-7.jpg)</span>
-
-<span class="img-800">![](/media/files/2013/07/17/biking-school-8.jpg)</span>
-
-<span class="img-800">![](/media/files/2013/07/17/biking-school-9.jpg)</span>
-
-<span class="img-800">![](/media/files/2013/07/17/biking-school-10.jpg)</span>
-
-<span class="img-800">![](/media/files/2013/07/17/biking-school-11.jpg)</span>
 
 「江边一瞥」
 
