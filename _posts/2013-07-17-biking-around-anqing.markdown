@@ -18,6 +18,7 @@ tags:
 <span class="img-800">![](/media/files/2013/07/17/biking-line.png)</span>
 
 「母校闲逛」
+
 <span class="img-800">![](/media/files/2013/07/17/biking-school-1.jpg)</span>
 
 <span class="img-800">![](/media/files/2013/07/17/biking-school-2.jpg)</span>
