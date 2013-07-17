@@ -45,11 +45,6 @@ tags:
 
 <span class="img-800">![](/media/files/2013/07/17/biking-changjiang-1.jpg)</span>
 
-<span class="img-800">![](/media/files/2013/07/17/biking-changjiang-2.jpg)</span>
-
-<span class="img-800">![](/media/files/2013/07/17/biking-changjiang-3.jpg)</span>
-
-<span class="img-800">![](/media/files/2013/07/17/biking-changjiang-4.jpg)</span>
 
 
 [1]:http://weibo.com/inxian
