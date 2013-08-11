@@ -24,6 +24,9 @@ layout: default
     <section class="post">
     {{ post.excerpt }}
     </section>
+	<section class="meta">
+		<a href="{{ post.url }}">进入阅读...</a>
+	</section>
     </article>
   {% endfor %}
   </ul>
