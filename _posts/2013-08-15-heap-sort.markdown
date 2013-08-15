@@ -15,82 +15,80 @@ tags:
 
 我是用的Java实现，其实是找了网上的其他代码参照着书本的伪码改写的，其中还因为忘记了Java中没有引用这种东西的，导致调试代码调了好长时间。
 
-```
-package com.test;
+	package com.test;	
 
-/**
- * @author crazylion
- *
- */
-public class SortTest
-{
-	public void heapAdjust(int[] a, int i, int size)
+	/**
+	 * @author crazylion
+	 *
+	 */
+	public class SortTest
 	{
-		int lchild = 2*i;
-		int rchild = 2*i + 1;
-		
-		int max = i;
-		
-		if(i <= size/2)
+		public void heapAdjust(int[] a, int i, int size)
 		{
-			if(lchild <= size && a[lchild] > a[max])
-			{
-				max = lchild;
-			}
+			int lchild = 2*i;
+			int rchild = 2*i + 1;
 			
-			if(rchild <= size && a[rchild] > a[max])
-			{
-				max = rchild;
-			}
+			int max = i;
 			
-			if(max != i)
+			if(i <= size/2)
+			{
+				if(lchild <= size && a[lchild] > a[max])
+				{
+					max = lchild;
+				}
+				
+				if(rchild <= size && a[rchild] > a[max])
+				{
+					max = rchild;
+				}
+				
+				if(max != i)
+				{
+					//因为Java没有引用，只能多写点了
+					int tmp = a[i];
+					a[i] = a[max];
+					a[max] = tmp;
+					heapAdjust(a, max, size);
+				}
+			}
+		}
+		
+		public void bulidHeap(int[] a, int size)
+		{
+			for(int i = size/2; i >= 1; i--)
+			{
+				heapAdjust(a, i, size);
+			}
+		}
+		
+		public void heapSort(int[] a, int size)
+		{
+			bulidHeap(a, size);
+			for(int i = size; i >= 1; i--)
 			{
 				//因为Java没有引用，只能多写点了
-				int tmp = a[i];
-				a[i] = a[max];
-				a[max] = tmp;
-				heapAdjust(a, max, size);
+				int tmp = a[1];
+				a[1] = a[i];
+				a[i] = tmp;
+				heapAdjust(a, 1, i - 1);
+			}
+		}
+		
+		public static void main(String[] args)
+		{
+			int[] heap = new int[11];
+			for(int i = 1; i <= 10; i++)
+			{
+				heap[i] = (int) (Math.random()*1000);
+				System.out.println("==>" + heap[i]);
+			}
+			
+			SortTest sortTest = new SortTest();
+			sortTest.heapSort(heap, 10);
+					
+			for(int i = 1; i <= 10; i++)
+			{
+				System.out.println("-->" + heap[i]);
 			}
 		}
 	}
-	
-	public void bulidHeap(int[] a, int size)
-	{
-		for(int i = size/2; i >= 1; i--)
-		{
-			heapAdjust(a, i, size);
-		}
-	}
-	
-	public void heapSort(int[] a, int size)
-	{
-		bulidHeap(a, size);
-		for(int i = size; i >= 1; i--)
-		{
-			//因为Java没有引用，只能多写点了
-			int tmp = a[1];
-			a[1] = a[i];
-			a[i] = tmp;
-			heapAdjust(a, 1, i - 1);
-		}
-	}
-	
-	public static void main(String[] args)
-	{
-		int[] heap = new int[11];
-		for(int i = 1; i <= 10; i++)
-		{
-			heap[i] = (int) (Math.random()*1000);
-			System.out.println("==>" + heap[i]);
-		}
-		
-		SortTest sortTest = new SortTest();
-		sortTest.heapSort(heap, 10);
-				
-		for(int i = 1; i <= 10; i++)
-		{
-			System.out.println("-->" + heap[i]);
-		}
-	}
-}
-```
