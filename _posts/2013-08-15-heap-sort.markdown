@@ -15,6 +15,7 @@ tags:
 
 我是用的Java实现，其实是找了网上的其他代码参照着书本的伪码改写的，其中还因为忘记了Java中没有引用这种东西的，导致调试代码调了好长时间。
 
+<pre class="prettify">
 	package com.test;	
 
 	/**
@@ -92,3 +93,4 @@ tags:
 			}
 		}
 	}
+</pre>
